@@ -2,6 +2,8 @@
 
 .custom_navbar{
     background-image:linear-gradient(to right,#131634,#4D5FA8);
+    width:100%;
+    background-size:cover;
 }
     
 .logo {
@@ -42,6 +44,7 @@
 
 .about_me_container{
     background-color:#1D2225;
+     width:100%;
     background-size:cover;
 }
 .about_me_container_heading{
@@ -85,6 +88,7 @@
 
 .skills_container{
     background-color:#1D2225;
+     width:100%;
     background-size:cover;
    
 }
@@ -108,6 +112,7 @@
 
 .edu_container{
     background-color:#1D2225;
+     width:100%;
     background-size:cover;
     
 }
@@ -140,6 +145,8 @@
 
 .projects_container{
     background-color:#1D2225;
+     width:100%;
+    background-size:cover;
 
 }
 .project_heading{
@@ -181,6 +188,8 @@
 
 .certificate_container{
     background-color:#1D2225;
+     width:100%;
+    background-size:cover;
 }
 .certificate_container_heading{
     color:#cced00;
