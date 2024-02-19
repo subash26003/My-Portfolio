@@ -53,8 +53,8 @@
     color:#ffffff;
 }
 .profile_image{
-    height: 400px;
-    width: 400px;
+     height: 50%;
+    width: 50%;
     border-radius:800px;
 }
 .about_me_container_name{
