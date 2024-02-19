@@ -1,0 +1,31 @@
+.projects_background{
+    background-color:#1D2225;
+    height:100vh;
+    background-size:cover;
+}
+.projects_title{
+    color:#cced00;
+    font-weight:bold;
+}
+.container_end_line{
+    background-color:#ffffff;
+    width: 100%;
+}
+.project_card{
+    background-image:linear-gradient(to top,#0A1F47,#3F62A5);
+    height:100%;
+    border-radius:10px;
+    
+}
+.project_image{
+    height:80%;
+    width:75%;
+    border-radius:10px;
+}
+.project_name{
+    color:#ffffff;
+    font-weight:bold;
+    text-align:center;
+    margin-top:15px;
+    font-size:22px;
+}

@@ -1,0 +1,94 @@
+
+.home_bg {
+    background-color: #1b1b1b;
+    padding: 20px;
+    font-family: "Bree Serif";
+}
+
+.home_heading {
+    color: #ffffff;
+}
+
+.home_top_card {
+    background-color: #e6f6ff;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.home_top_image {
+    height: 250px;
+    width: 180px;
+}
+
+.home_top_card_content {
+    padding: 35px;
+}
+
+.home_top_card_heading {
+    font-family: "Bree Serif";
+    color: #183b56;
+}
+
+.home_top_card_title {
+    font-family: "Bree Serif";
+    color: #06070d;
+}
+
+.author {
+    font-family: "Bree Serif";
+    color: #183b56;
+}
+
+.recom_book_card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.recom_heading {
+    color: #ffffff;
+}
+
+.book_image {
+    height: 200px;
+    width: 130px;
+}
+
+.recom_book_content {
+    margin-left: 15px;
+}
+
+.recom_book_name {
+    color: #ffffff;
+}
+
+.recom_book_author {
+    color: #9aa5b1;
+}
+
+.detail_bg {
+    background-color: #1b1b1b;
+    padding: 20px;
+    font-family: "Bree Serif";
+    text-align: center;
+    color: #ffffff;
+}
+
+.detail_page_img {
+    height: 300px;
+    width: 200px;
+    margin: auto;
+}
+
+.detail_page_authhor {
+    color: #9aa5b1;
+}
+
+.detail_page_content {
+    text-align: left;
+}
+
+button {
+    font-family: "Roboto";
+    margin: 5px;
+}

@@ -1,0 +1,19 @@
+
+.feature_card_heading {
+    color: #1f2933;
+    font-weight: bold;
+}
+
+.feature_card_para {
+    color: #7b8794;
+    font-size: 20px;
+}
+
+.read_button {
+    background-color: #1a2137;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #ffffff;
+}

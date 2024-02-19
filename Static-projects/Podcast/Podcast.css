@@ -1,0 +1,100 @@
+
+.overall_cont {
+    background-color: #ffffff;
+}
+
+.podcast_bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 50vh;
+    background-size: cover;
+}
+
+.podcast {
+    font-family: "Roboto";
+    color: #ffffff;
+    margin: 20px;
+}
+
+.artist {
+    text-align: center;
+    margin: 10px;
+}
+
+.artist_img {
+    width: 170px;
+    height: 125px;
+}
+
+.name {
+    font-family: "Roboto";
+    color: #151765;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.esp {
+    font-family: "Roboto";
+    color: #5a7184;
+}
+
+.top_cont {
+    background-color: #151765;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.top_cont_content {
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 15px;
+    font-family: "Roboto";
+}
+
+.top_cont_image {
+    margin-top: 5px;
+}
+
+.artist_name {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.bottom_cont {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.bottom_cont_image {
+    margin-top: 5px;
+}
+
+.bottom_cont_content {
+    margin-left: 20px;
+}
+
+.song_name {
+    font-size: 25px;
+    color: #151765;
+}
+
+.about {
+    color: #5a7184;
+    font-size: 17px;
+}
+
+.time {
+    font-size: 15px;
+    color: #151765;
+
+}
+
+.button_class {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+}

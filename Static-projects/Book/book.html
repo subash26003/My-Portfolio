@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="book.css">
+</head>
+
+<body>
+    <div id="section_home">
+        <div class="home_bg d-flex flex-column ">
+            <h1 class="home_heading">Popular Book</h1>
+            <div class="home_top_card d-flex flex-row">
+                <div class="home_top_card_image d-flex flex-column justify-content-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="home_top_image">
+                </div>
+                <div class="home_top_card_content">
+                    <h4 class="home_top_card_heading"> Wings of Fire</h4>
+                    <p class="home_top_card_title">An Autobiograpghy of Abdul Kalam</p>
+                    <p class="author">by Arun Tiwari</p>
+                    <button class="btn btn-primary" onclick="display('section_detail1')">Read Now</button>
+                </div>
+            </div>
+            <h2 class="recom_heading">Recommended Books</h2>
+            <div class="recom_book_card  d-flex flex-row ">
+                <div class="recom_book">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="book_image">
+                </div>
+                <div class="recom_book_content">
+                    <h4 class="recom_book_name">The 3 mistakes of my life</h4>
+                    <p class="recom_book_author">Indian author<br /> by Chetan Bhagat</p>
+                    <button class="btn btn-primary" onclick="display('section_detail2')">Read Now</button>
+                </div>
+            </div>
+            <div class="recom_book_card  d-flex flex-row ">
+                <div class="recom_book">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="book_image">
+                </div>
+                <div class="recom_book_content">
+                    <h4 class="recom_book_name">Harry Potter</h4>
+                    <p class="recom_book_author">and the Sorcerer's Stone<br /> by J.K.Rowiing</p>
+                    <button class="btn btn-primary" onclick="display('section_detail3')">Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section_detail1">
+        <div class="detail_bg d-flex flex-column ">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="detail_page_img" />
+            <h1 class="detail_page_heading">Wings of Fire</h1>
+            <p class="detail_page_authhor">by Arun Tiwari</p>
+            <p class="detail_page_content">"Wings of Fire" is a popular fantasy book series written by Tui T. Sutherland. Set in the dragon-inhabited world of Pyrrhia, the series follows the adventures of young dragonets from different tribes destined to end a war. Each book centers on a new set of protagonists and explores themes of friendship, bravery, and the struggle for peace. The series captivates readers with its rich world-building, unique characters, and intricate plot twists. As the dragonets face challenges and uncover secrets, "Wings of Fire" delivers an engaging blend of action and emotion, appealing to both young and adult audiences alike.</p>
+            <div class="detail_page_buttons d-flex flex-row justify-content-center">
+                <button class="btn btn-warning" onclick="display('section_home')">Back</button>
+                <button class="btn btn-primary">Read Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="section_detail2">
+        <div class="detail_bg d-flex flex-column ">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="detail_page_img" />
+            <h1 class="detail_page_heading">The 3 mistakes of my life</h1>
+            <p class="detail_page_authhor">by Chetan Bhagat</p>
+            <p class="detail_page_content">"The 3 Mistakes of My Life" is a novel by Chetan Bhagat that revolves around three friends in Gujarat, India. The protagonist, Govind, faces challenges in his business venture, experiences the impact of a communal riot, and grapples with personal relationships. The narrative explores themes of friendship, love, and ambition against the backdrop of significant socio-political events. Bhagat skillfully weaves a tale of aspirations, mistakes, and redemption, providing readers with insights into the complexities of life. The novel reflects on the choices made by its characters and their consequences, offering a thought-provoking and engaging story in around 100 words.
+            </p>
+            <div class="detail_page_buttons d-flex flex-row justify-content-center">
+                <button class="btn btn-warning" onclick="display('section_home')">Back</button>
+                <button class="btn btn-primary">Read Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="section_detail3">
+        <div class="detail_bg d-flex flex-column ">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="detail_page_img" />
+            <h1 class="detail_page_heading">Harry Potter</h1>
+            <p class="detail_page_authhor">by J.K.Rowiing</p>
+            <p class="detail_page_content">"Harry Potter," a magical fantasy series by J.K. Rowling, follows the journey of a young wizard, Harry, as he discovers his true identity and battles the dark wizard Voldemort. Set at Hogwarts School of Witchcraft and Wizardry, Harry forms enduring friendships with Ron and Hermione. The series explores themes of friendship, courage, and the triumph of good over evil. Across seven books, readers witness Harry's growth from an orphan to the savior of the wizarding world. Rowling's vivid storytelling, intricate plot twists, and memorable characters have captivated millions, making "Harry Potter" a global cultural phenomenon with widespread appeal beyond its target audience.</p>
+            <div class="detail_page_buttons d-flex flex-row justify-content-center">
+                <button class="btn btn-warning" onclick="display('section_home')">Back</button>
+                <button class="btn btn-primary">Read Now</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

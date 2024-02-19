@@ -1,0 +1,213 @@
+/* navbar */
+
+.custom_navbar{
+    background-image:linear-gradient(to right,#131634,#4D5FA8);
+}
+    
+.logo {
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+    border-radius:40px;
+}
+
+#custom_nav_item1 {
+    color: #ffffff;
+    
+    font-weight:bold;
+}
+
+#custom_nav_item2 {
+    color: #ffffff;
+    
+    font-weight:bold;
+}
+
+#custom_nav_item3 {
+    color: #ffffff;
+  
+    font-weight:bold;
+}
+
+#custom_nav_item4 {
+    color: #ffffff;
+    font-weight:bold;
+}
+#custom_nav_item5 {
+    color: #ffffff;
+    font-weight:bold;
+}
+
+/* bottom container */
+
+.about_me_container{
+    background-color:#1D2225;
+    background-size:cover;
+}
+.about_me_container_heading{
+    font-size:65px;
+    font-weight:bold;
+    color:#ffffff;
+}
+.profile_image{
+    height: 400px;
+    width: 400px;
+    border-radius:800px;
+}
+.about_me_container_name{
+    font-size:45px;
+    font-weight:bold;
+    color:#ffffff;
+}
+.about_me_container_content{
+    font-size:25px;
+    font-weight:bold;
+    color:#ffffff;
+}
+.image_line{
+    width:75%;
+    background-color:#ffffff;
+}
+#custom_icon1{
+    height:30px;
+    width:20px;
+}
+#custom_icon2{
+    height:30px;
+    width:20px;
+}
+.container_end_line{
+    background-color:#ffffff;
+    width: 100%;
+}
+
+/* Skills */
+
+.skills_container{
+    background-color:#1D2225;
+    background-size:cover;
+   
+}
+.skills_container_heading{
+    color:#cced00;
+    font-size:40px;
+    font-weight:bold;
+}
+.skill_card{
+    background-color:#14163D;
+    border-radius:10px;
+}
+.skill_name{
+    font-size:22px;
+    color:#ffffff;
+    font-weight:bold;
+    font-family:"Roboto";
+}
+
+/* Education */
+
+.edu_container{
+    background-color:#1D2225;
+    background-size:cover;
+    
+}
+.edu_heading{
+    color:#cced00;
+    font-size:40px;
+    font-weight:bold;
+  
+}
+.graduation_container{
+    background-image:linear-gradient(#131634,#252E53);
+    border-radius:10px;
+    height:100%;
+}
+.graduation_name{
+    color:#ffffff;
+    font-size:30px;
+    font-family:"Roboto";
+    font-weight:bold;
+    text-decoration: underline;
+    margin-bottom:10px;
+}
+.graguation_content{
+    color: #A1AAD2;
+    font-size:20px;
+    font-family:"Roboto";
+}
+
+/* Projects Container */
+
+.projects_container{
+    background-color:#1D2225;
+
+}
+.project_heading{
+    color:#cced00;
+    font-size:40px;
+    font-weight:bold;
+}
+.project_card{
+    background-color:#14163D;
+    height:90%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.project_card_title{
+    color:#ffffff;
+    font-size:25px;
+}
+
+.project_card_content{
+    color: #A1AAD2;
+    font-size:20px;
+    font-family:"Roboto";
+}
+.disclimer{
+    color:#ffffff;
+    font-size:20px;
+}
+.disclimer_content{
+    color:#cced00;
+    font-style:italic;
+}
+.explore_text{
+    text-align:center;
+    font-size:15px;
+    color:#cced00;
+}
+
+/* Certificates */
+
+.certificate_container{
+    background-color:#1D2225;
+}
+.certificate_container_heading{
+    color:#cced00;
+    font-size:40px;
+    font-weight:bold;
+}
+.certificate_card{
+    background-color: #14163D;
+    padding:30px;
+    border-radius:20px;
+    
+}
+.certificate_provider{
+    height:100%;
+    width:100%;
+    border-radius:20px;
+}
+.certification_content{
+    color: #A1AAD2;
+    font-size:20px;
+    font-family:"Roboto";
+}
+.certification_content_highlights{
+    font-weight:bold;
+    color:#ffffff;
+}
+.certificate_link{
+    color:#cced00;
+    font-size:18px;
+}

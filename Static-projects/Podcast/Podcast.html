@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Podcast.css">
+</head>
+
+<body>
+    <div id="section_home">
+        <div class="overall_cont d-flex flex-column justify-content-start">
+            <div class="podcast_bg">
+                <h1 class="podcast"> Podcasts</h1>
+            </div>
+            <div class="artist_row1 d-flex flex-row justify-content-center">
+                <div class="artist" onclick="display('section_puri')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="artist_img">
+                    <h1 class="name">Puri jagannadh</h1>
+                    <p class="esp">24 Episodes</p>
+                </div>
+                <div class="artist" onclick="display('section_talks')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="artist_img">
+                    <h1 class="name">Tedx talks</h1>
+                    <p class="esp">12 Episodes</p>
+                </div>
+            </div>
+            <div class="artist_row1 d-flex flex-row justify-content-center">
+                <div class="artist" onclick="display('section_guru')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="artist_img">
+                    <h1 class="name">Sadhguru</h1>
+                    <p class="esp">49 Episodes</p>
+                </div>
+                <div class="artist" onclick="display('section_purpose')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="artist_img">
+                    <h1 class="name">On purpose</h1>
+                    <p class="esp">49 Episodes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section_puri">
+        <div class="overall_cont d-flex flex-column">
+            <div class="top_cont d-flex flex-row justify-content-center">
+                <div class="top_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="artist_img">
+                </div>
+                <div class="top_cont_content">
+                    <p class="title">Podcast</p>
+                    <h1 class="artist_name">Puri Jagannadh Podcast</h1>
+                    <p class="about"> The Puri Jagannadh Podcast</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Molecular Gastronomy</h1>
+                    <p class="about">Anything happens there it will not cook,...</p>
+                    <p class="time">15 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Mysterious book</h1>
+                    <p class="about">The Voynich manuscript is the 15th century book...</p>
+                    <p class="time">12 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Predator Drone</h1>
+                    <p class="about">The modt power full drone. It is 10 feet height...</p>
+                    <p class="time">10 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Paella</h1>
+                    <p class="about">The national dish of spain.It was first star...</p>
+                    <p class="time">6 min</p>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-end">
+                <button class="button_class btn btn-dark" onclick="display('section_home')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section_talks">
+        <div class="overall_cont d-flex flex-column">
+            <div class="top_cont d-flex flex-row justify-content-center">
+                <div class="top_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="artist_img">
+                </div>
+                <div class="top_cont_content">
+                    <p class="title">Podcast</p>
+                    <h1 class="artist_name">The Tedx podcast</h1>
+                    <p class="about"> The Tedx podcast</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">The science of friction</h1>
+                    <p class="about">Tribology:It's a funny sounding word you might... </p>
+                    <p class="time">12 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Unleash you</h1>
+                    <p class="about">What can we learn from the world's most enduringly...</p>
+                    <p class="time">8 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">3 psychological tricks</h1>
+                    <p class="about">We all want to save more money - but overall...</p>
+                    <p class="time">10 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">The case for stubborn </h1>
+                    <p class="about">This decade is a moment of choice unlike any we...</p>
+                    <p class="time">12 min</p>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-end">
+                <button class="button_class btn btn-dark" onclick="display('section_home')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section_guru">
+        <div class="overall_cont d-flex flex-column">
+            <div class="top_cont d-flex flex-row justify-content-center">
+                <div class="top_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="artist_img">
+                </div>
+                <div class="top_cont_content">
+                    <p class="title">Podcast</p>
+                    <h1 class="artist_name">The Sadhguru Podcast</h1>
+                    <p class="about"> The Sadhguru Podcastt</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Head or heart</h1>
+                    <p class="about">Sadhguru shares his wisdom on how to make...</p>
+                    <p class="time">16 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">How to equip yourself</h1>
+                    <p class="about">Society and human interactions are going...</p>
+                    <p class="time">13 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">How not to get irritated</h1>
+                    <p class="about">How do you see an unpleasant spouse the...</p>
+                    <p class="time">15 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Isha Kriya</h1>
+                    <p class="about">Rooted in the timeless wisdom if the yogic...</p>
+                    <p class="time">16 min</p>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-end">
+                <button class="button_class btn btn-dark" onclick="display('section_home')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section_purpose">
+        <div class="overall_cont d-flex flex-column">
+            <div class="top_cont d-flex flex-row justify-content-center">
+                <div class="top_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="artist_img">
+                </div>
+                <div class="top_cont_content">
+                    <p class="title">Podcast</p>
+                    <h1 class="artist_name">On Purpose with Jay </h1>
+                    <p class="about"> The Jay Shetty Podcast</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Patrick Bet David</h1>
+                    <p class="about">Are you an entrepreneur or have dreams of mental...</p>
+                    <p class="time">10 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">5 Techniques to cope</h1>
+                    <p class="about">Does anxiety looms around every corner of your...</p>
+                    <p class="time">4 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">Radhanath Swami ON</h1>
+                    <p class="about">World-renowned spritual leader and philanthropist...</p>
+                    <p class="time">12 min</p>
+                </div>
+            </div>
+            <div class="bottom_cont d-flex flex-row justify-content-center">
+                <div class="bottom_cont_image ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="artist_img">
+                </div>
+                <div class="bottom_cont_content">
+                    <h1 class="song_name">3 Ways to go</h1>
+                    <p class="about">Do the opinions of others veer you from the core...</p>
+                    <p class="time">13 min</p>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-end">
+                <button class="button_class btn btn-dark" onclick="display('section_home')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
