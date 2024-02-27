@@ -1,9 +1,7 @@
 /* navbar */
 
 .custom_navbar{
-    background-image:linear-gradient(to right,#131634,#4D5FA8);
-    width:100%;
-    background-size:cover;
+    background-image:linear-gradient(to right,#006494,#006DA4);
 }
     
 .logo {
@@ -43,8 +41,7 @@
 /* bottom container */
 
 .about_me_container{
-    background-color:#1D2225;
-     width:100%;
+    background-color:#022B42;
     background-size:cover;
 }
 .about_me_container_heading{
@@ -53,9 +50,10 @@
     color:#ffffff;
 }
 .profile_image{
-     height: 50%;
+    height: 50%;
     width: 50%;
     border-radius:800px;
+    margin:auto;
 }
 .about_me_container_name{
     font-size:45px;
@@ -80,8 +78,8 @@
     width:20px;
 }
 .social_link{
+    font-size:20px;
     color:aqua;
-    font-size:22px;
 }
 .container_end_line{
     background-color:#ffffff;
@@ -91,8 +89,7 @@
 /* Skills */
 
 .skills_container{
-    background-color:#1D2225;
-     width:100%;
+    background-color:#022B42;
     background-size:cover;
    
 }
@@ -102,7 +99,7 @@
     font-weight:bold;
 }
 .skill_card{
-    background-color:#14163D;
+    background-color:#006DA4;
     border-radius:10px;
 }
 .skill_name{
@@ -115,8 +112,7 @@
 /* Education */
 
 .edu_container{
-    background-color:#1D2225;
-     width:100%;
+    background-color:#022B42;
     background-size:cover;
     
 }
@@ -127,7 +123,7 @@
   
 }
 .graduation_container{
-    background-image:linear-gradient(#131634,#252E53);
+    background-image:linear-gradient(#022B42,#004D74);
     border-radius:10px;
     height:100%;
 }
@@ -148,9 +144,7 @@
 /* Projects Container */
 
 .projects_container{
-    background-color:#1D2225;
-     width:100%;
-    background-size:cover;
+    background-color:#022B42;
 
 }
 .project_heading{
@@ -159,7 +153,7 @@
     font-weight:bold;
 }
 .project_card{
-    background-color:#14163D;
+    background-color:#003554;
     height:90%;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
@@ -191,17 +185,47 @@
 /* Certificates */
 
 .certificate_container{
-    background-color:#1D2225;
-     width:100%;
-    background-size:cover;
+    background-color:#022B42;
+  
 }
 .certificate_container_heading{
     color:#cced00;
     font-size:40px;
     font-weight:bold;
 }
-.certificate_card{
-    background-color: #14163D;
+.certificate_card1{
+    background-color: #003554;
+    padding:30px;
+    border-radius:20px;
+    margin-left:185px;
+}
+.custom_certificate_card1{
+    background-color: #003554;
+    padding:30px;
+    border-radius:20px;
+    
+}
+
+.certificate_card2{
+    background-color: #003554;
+    padding:30px;
+    border-radius:20px;
+    margin-right:185px;
+}
+.custom_certificate_card2{
+    background-color: #003554;
+    padding:30px;
+    border-radius:20px;
+    
+}
+.certificate_card3{
+    background-color: #003554;
+    padding:30px;
+    border-radius:20px;
+    margin-left:185px;
+}
+.custom_certificate_card3{
+    background-color: #003554;
     padding:30px;
     border-radius:20px;
     
