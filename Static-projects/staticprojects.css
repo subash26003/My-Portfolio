@@ -1,7 +1,7 @@
 .projects_background{
-    background-color:#1D2225;
-    height:100vh;
-    background-size:cover;
+    background-color:#022B42;
+   width:100vw;
+   background-size:cover;
 }
 .projects_title{
     color:#cced00;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 .project_card{
-    background-image:linear-gradient(to top,#0A1F47,#3F62A5);
+    background-image:linear-gradient(to top,#022B42,#004D74);
     height:100%;
     border-radius:10px;
     
