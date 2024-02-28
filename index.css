@@ -219,3 +219,58 @@
     color:#cced00;
     font-size:18px;
 }
+/* Recommendations */
+
+.recom{
+    background-color:#022B42;
+   
+    
+}
+.recom_title{
+  color:#cced00;
+
+}
+.recom_card{
+   padding:20px;
+   background-image:Linear-gradient(#004D74,#022B42);
+   margin-top:20px;
+   border-radius:10px;
+   color:white;
+   font-family:"Roboto";
+}
+#recom_card2{
+   padding:20px;
+   background-image:Linear-gradient(#004D74,#022B42);
+   margin-top:20px;
+   border-radius:10px;
+   color:white;
+   font-family:"Roboto";
+}
+.recom_content{
+  
+  font-size:20px;
+ 
+}
+.leave_reccom_title{
+  margin-top:20px;
+  text-align:center;
+  color:#cced00;
+  font-size:30px;
+  text-decoration:underline;
+}
+.name_ip{
+  display:flex;
+  margin:auto;
+  width:250px;
+}
+.txt_ip{
+  display:flex;
+  margin:auto;
+ 
+  width:50%;
+  
+}
+.submit_button{
+  display: flex;
+  margin:auto;
+}
