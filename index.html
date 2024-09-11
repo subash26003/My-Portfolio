@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="index.js" ></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./assets/images/page-icon.jpg" />
+    <script src="https://kit.fontawesome.com/8d5e4c03ef.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Starts -->
+     
+    <div id="navbar">
+        <nav class="nav-container">
+            <a href="#" class="home"><p class="nav-title"><span>&lt;</span> Subash <span>/&gt;</span></p></a>
+            <ul id="nav-links-card" class="large-device-nav">
+                <li class="nav-links large-device-nav-links"><a href="#about">About</a></li>
+                <li class="nav-links large-device-nav-links"><a href="#skills">Skills</a></li>
+                <li class="nav-links large-device-nav-links"><a href="#projects">Projects</a></li>
+                <li class="nav-links large-device-nav-links"><a href="#contact">Contact</a></li>
+            </ul>
+           
+            <div id="hambuger" class="hambuger-icon" onclick="hambugerClicked()">
+                <div class="icon-one"></div>
+                <div class="icon-two"></div>
+                <div class="icon-three"></div>
+            </div>
+            
+        </nav>
+        <div id="mobile-nav" class="mobile-nav-card">
+            <ul class="mobile-nav-links-card">
+                <li class="nav-links"><a href="#about">About</a></li>
+                <li class="nav-links"><a href="#skills">Skills</a></li>
+                <li class="nav-links"><a href="#projects">Projects</a></li>
+                <li class="nav-links"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    
+    </div>
+
+    <!-- Navbar Ends -->
+
+    <!-- intro Starts -->
+    <div id="intro">
+        <div id="particles-js"></div>
+        <div class="intro-card">
+            <div class="intro-content"> 
+                <h1 data-aos="fade-right" >Hey There! <br/>  I'm <span>Subash</span></h1>
+                <div class="role-animation" data-aos="fade-right"><p class="">I am into &nbsp</p><p id="role"></p><p class="type-cursor">|</p></div>
+                <div class="intro-icons-card" data-aos="fade-right">
+                    <a class="icon-link" href="https://www.linkedin.com/in/subash003/" target="_blank" >
+                        <div class="intro-icon">
+                            <i class="fa-brands fa-linkedin-in icon"></i>
+                        </div>
+                    </a>
+                    <a class="icon-link" href="https://github.com/subash26003/" target="_blank" >
+                        <div class="intro-icon">
+                            <i class="fa-brands fa-github icon"></i>
+                        </div>
+                    </a>
+                    
+                    <a class="icon-link" href="https://www.instagram.com/s__u_b_a_s_h?igsh=MTQ1eWFlczBncXR1aw==" target="_blank" >
+                        <div class="intro-icon">
+                            <i class="fa-brands fa-instagram icon"></i>
+                        </div>
+                    </a>
+                    
+                </div>
+                <a href="#about">
+                    <button class="button-element about-me-btn about-me-btn" data-aos="fade-down"  data-aos-offset="50" >About me <i class="fa-regular fa-circle-down"></i></button>
+                </a>
+            </div>
+            <div class="anime-image-card">
+                <img class="anime-boy-image" src="assets/images/anime-boy.jpg" alt="anime-boy" />
+            </div>
+        </div>
+        
+    </div>
+    <!-- intro Ends -->
+
+    <!-- About Starts -->
+
+    <div id="about">
+        <p class="about-title"><i class="fa-solid fa-user"></i>  About <span>Me</span></p>
+        <div class="about-outer-container">
+            <div class="profile-image-card">
+                <img class="profile-image " src="assets/images/anime-boy.jpg" />
+            </div>
+            <div class="about-content-card">
+                <div>
+                    <p class="about-my-name" data-aos="fade-down" data-aos-offset="50">I'm <span>Subash</span></p>
+                    <p class="about-my-role" data-aos="fade-down" data-aos-offset="50" >Frontend Developer</p>
+                    <p class="about-objective" data-aos="fade-down" data-aos-offset="50" >I’m a passionate web developer skilled in React, Tailwind CSS, and data visualization. With hands-on experience in building dynamic, responsive websites, I strive to create seamless user experiences. I’m always eager to learn new technologies and take on challenges that help me grow as a developer.</p>
+                    <p class="about-my-email" data-aos="fade-down" data-aos-offset="50" >Email: <span>subashcat67@gmail.com</span></p>
+                    <p class="about-my-place" data-aos="fade-down" data-aos-offset="50" >Place: <span>Coimbatore, Tamilnadu</span></p>
+                    <a href="https://drive.google.com/file/d/1BG0RqY17VNMXfSzabGQYb8Xldjoyg4e-/view?usp=drive_link" target="_blank">
+                        <button class="button-element about-resume-btn" data-aos="fade-down"  data-aos-offset="50" >Resume <i class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- About Ends -->
+
+    <!-- Skills Start -->
+    <div id="skills">
+        <p class="skills-title"><i class="fa-solid fa-code"></i> My <span>Skills</span></p>
+        <div id="skills-container" class="skills-container" >
+            <!-- <div class="skill-card">
+                <img class="skills-logo" src="assets/skills-images/java-logo.png" />
+                <p>JAVA</p>
+            </div> -->
+        </div>
+    </div>
+    <!-- Skills End -->
+
+    <!-- Projects Starts -->
+    <div id="projects">
+        <p class="projects-title"><i class="fa-solid fa-folder"></i> My <span>Projects</span></p>
+        <div id="projects-container" class="projects-container">
+            <!-- <div class="projects-card" >
+                <img src="assets/images/projects-image/DataAnalytics.png" />
+
+                <div class="project-dropup">
+                    <p class="project-name">Restaurant webpage</p>
+                    <p class="project-content">A Responsive Landing Page using HTML5, CSS, Bootstrap.</p>
+                    <div class="projects-icon-card">
+                        <a href="https://subash26003.github.io/Restaurant-website/" target="_blank">
+                            <div class="project-code-icon">
+                                View
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/subash26003/Restaurant-website" target="_blank">
+                            <div class="project-code-icon">
+                                Code
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                        </a>
+                    </div> 
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Projects Ends -->
+
+    <!-- Contact section Starts -->
+
+    <div id="contact">
+        <p class="projects-title"><i class="fa-solid fa-headset"></i>
+            Contact<span> Me</span></p>
+        
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                  <input type="text" id="name" placeholder="Your Name" required>
+                  <input type="email" id="email" placeholder="Your Email" required>
+                  <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                  <button type="button" onclick="sendEmail()">Send Email</button>
+                </form>
+              </div>
+    </div>
+
+    <!-- Contact Ends -->
+
+    <footer>
+        <p>© 2024 - All Rights Reserved</p>
+        <p>Frontend Developer | Passionate about Web Development</p>
+        <div class="footer-links">
+          <a href="mailto:subashcat67@gmail.com">Email</a>
+          <a href="https://github.com/your-github-profile" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>
+        </div>
+      </footer>
+  
+
+    <script src="index.js"></script>
+    <script src="JsFiles/animatedTitle.js" ></script>
+    <script  src="particles.js" ></script>
+    <script src="app.js" ></script>
+   
+    <script>
+        AOS.init({
+            once: false,
+        });
+    
+    </script>
+
+</body>
+</html>

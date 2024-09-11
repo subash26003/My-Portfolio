@@ -1,0 +1,23 @@
+[
+    {
+        "title":"Data Visulization",
+        "content" :"Data Visulization webpage using React, Tailwind and react-chartjs2",
+        "view":"https://github.com/subash26003/DataVisualization-webpage",
+        "code":"https://github.com/subash26003/DataVisualization-webpage",
+        "image": "assets/images/projects-image/DataAnalytics.png"
+    },
+    {
+        "title":"Task Managment",
+        "content" :"A React app which perform CURD operations and local Storage",
+        "view":"https://github.com/subash26003/Task-one-TodoApp/",
+        "code":"https://github.com/subash26003/Task-one-TodoApp/",
+        "image": "assets/images/projects-image/taskApp.png"
+    },
+    {
+        "title":"Restaurant Webpage",
+        "content" :"A Responsive Landing page using HTML5, CSS and Bootstrap.",
+        "view":"https://subash26003.github.io/Restaurant-website/",
+        "code":"https://github.com/subash26003/Restaurant-website",
+        "image": "assets/images/projects-image/restaurant.png"
+    }
+]

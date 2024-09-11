@@ -1,0 +1,61 @@
+[
+    {
+        "name":"React",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937926/Logo/react_ezr1va.png"
+    },
+    {
+        "name":"Node JS",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/node-js_wjqw6b.png"
+    },
+    {
+        "name":"Express JS",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1725973043/Logo/icons8-express-js-50_3_gj5gd3.png"
+    },
+    
+    {
+        "name":"Java",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937926/Logo/java_dylgek.png"
+    },
+    {
+        "name":"Javascript",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1725014996/Logo/javascript_1_iotkvr.png"
+    },
+    {
+        "name":"Python",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937926/Logo/python_b2kzwp.png"
+    },
+    
+    {
+        "name":"C language",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/c_texiht.png"
+    },
+    
+    {
+        "name":"HTML",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1725014996/Logo/html_1_mopts4.png"
+    },
+    {
+        "name":"css",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/css_eeyijk.png"
+    },
+    {
+        "name":"Tailwind css",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/tailwind-css_j1amer.png"
+    },
+    {
+        "name":"Bootstrap",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/bootstrap_cmsdl4.png"
+    },
+    {
+        "name":"Git",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/git_i5mjrt.png"
+    },
+    {
+        "name":"GitHub",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1725014996/Logo/github_2_engetx.png"
+    },
+    {
+        "name":"SQL",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/mysql_yfaulv.png"
+    }
+]
