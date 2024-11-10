@@ -1,5 +1,12 @@
 [
     {
+        "title":"Restaurant Webpage",
+        "content" :"Restaurant webpage built with React, Tailwind CSS, Node.js, Express.js, and SQL, providing user login and signup features.",
+        "view":"https://github.com/subash26003/project-nexus-restaurant-webpage",
+        "code":"https://github.com/subash26003/project-nexus-restaurant-webpage",
+        "image": "assets/images/projects-image/Restaurant-updated.png"
+    },
+    {
         "title":"Data Visulization",
         "content" :"Data Visulization webpage using React, Tailwind and react-chartjs2",
         "view":"https://github.com/subash26003/DataVisualization-webpage",

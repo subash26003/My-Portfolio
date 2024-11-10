@@ -29,7 +29,10 @@
         "name":"C language",
         "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/c_texiht.png"
     },
-    
+    {
+        "name":"SQL",
+        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/mysql_yfaulv.png"
+    },
     {
         "name":"HTML",
         "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1725014996/Logo/html_1_mopts4.png"
@@ -53,9 +56,5 @@
     {
         "name":"GitHub",
         "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1725014996/Logo/github_2_engetx.png"
-    },
-    {
-        "name":"SQL",
-        "image":"https://res.cloudinary.com/dosxybcit/image/upload/v1724937925/Logo/mysql_yfaulv.png"
     }
 ]
