@@ -1,2 +1,1 @@
-Hot Pink (#FF69B4)
-Coral (#FF7F50)
+https://subash26003.github.io/My-Portfolio/
