@@ -1,5 +1,12 @@
 [
     {
+        "title":"Snapcart E-commerce website",
+        "content" :"Restaurant webpage built with React, Tailwind CSS, Node.js, Express.js, and SQL, providing user login and signup features.",
+        "view":"https://snapcart-frontend.onrender.com",
+        "code":"https://github.com/subash26003/snapcart-Ecommerce-website",
+        "image": "https://res.cloudinary.com/dosxybcit/image/upload/v1734930686/Projetcs/Screenshot_2024-12-23_103048_co6rtf.png"
+    },
+    {
         "title":"Restaurant Webpage",
         "content" :"Restaurant webpage built with React, Tailwind CSS, Node.js, Express.js, and SQL, providing user login and signup features.",
         "view":"https://github.com/subash26003/project-nexus-restaurant-webpage",
